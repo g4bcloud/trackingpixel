@@ -5,3 +5,6 @@ compatibility_date = "2024-01-01"
 [[r2_buckets]]
 binding = "TRACKING_PIXEL_BUCKET"
 bucket_name = "tracking-pixel"
+
+# Set CLOUDFLARE_TOKEN as a secret:
+# wrangler secret put CLOUDFLARE_TOKEN
